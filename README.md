@@ -5,17 +5,17 @@ This Python script is designed to collect system information about DirectX, crea
 Direct X report: dxdiag_report.txt
 Log file: emailer.log
 
-This project was completed using iOS mail.
+This project was tested using iOS mail. For other mail provider, please change the SMTP information.
 
 
 The keyring library allows you to securely store and manage your email credentials. 
 (Saved under Windows Credentials)
 
 
-How do I run?
+How to run?
 
 1) Verify that the keyring module is installed on your system.
-pip install keyring.
+pip install keyring
 
 2) Navigate to the project path and execute the script.
 
